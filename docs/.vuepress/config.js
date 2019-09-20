@@ -1,8 +1,8 @@
 module.exports = {
-	title: 'VuePress Blog Boilerplate',
+	title: 'Test Site',
 	dest: './public',
 	themeConfig: {
-		repo: 'https://github.com/bencodezen/vuepress-blog-boilerplate',
+		repo: 'https://github.com/baskar3078/vuepress-blog-boilerplate',
 		repoLabel: 'Repo',
 		docsDir: 'src',
 		editLinks: true,
@@ -10,14 +10,14 @@ module.exports = {
 		editLinkText: 'Found a bug? Help me improve this page!',
 		nav: [
 			{ text: 'Home', link: '/' }, 
-			{ text: 'Learn', link: '/learn/' }
+			{ text: 'About', link: '/about/' }
 		]
 	},
 	plugins: [
 		[
 			'@vuepress/google-analytics',
 			{
-				ga: 'UA-92645815-3'
+				ga: ''
 			}
 		],
 		[
